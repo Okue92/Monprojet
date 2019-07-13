@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
+bot.login (process.env.TOKEN);
 bot.on("ready", () => {
 bot.user.setActivity('Okue Le tchoupi Islamiste', { type: 'STREAMING', url:'https://www.twitch.tv/monstercat'})
   console.log("Bot [ON]")
@@ -194,4 +195,4 @@ let cont = message.content.slice(1).split(" ")
 })
    
 
-      bot.login (process.env.TOKEN)
+      

